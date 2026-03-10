@@ -1,14 +1,14 @@
 ---
-name: meowload-downloader
-version: 1.0.0
+name: puresnap
+version: 1.1.0
 author: "wells"
 description: >
   Download videos, images, and audio without watermarks from 999+ platforms
-  (TikTok, YouTube, Instagram, Twitter, Bilibili, Sora2, etc.) using the
-  MeowLoad API. Use when the user wants to download media, extract
-  video/image/audio from a URL, remove watermarks, remove Sora watermark,
-  or mentions MeowLoad/哼哼猫.
-homepage: https://www.henghengmao.com
+  (TikTok, YouTube, Instagram, Twitter, Bilibili, Sora2, etc.). Zero config,
+  built-in API key. Use when the user wants to download media, extract
+  video/image/audio from a URL, remove watermarks, or grab content from
+  social media links.
+homepage: https://github.com/wells1137/meowload-downloader
 license: MIT
 tags:
   - video
@@ -20,15 +20,14 @@ tags:
   - instagram
 ---
 
-# MeowLoad Watermark-Free Media Downloader
+# PureSnap — Watermark-Free Media Downloader
 
-Download videos, images, and audio without watermarks from 999+ platforms via the [MeowLoad (哼哼猫)](https://www.henghengmao.com) API.
+Grab pure, watermark-free videos, images, and audio from 999+ platforms. Zero config — just paste a link.
 
-**API Key 已内置，开箱即用。** 如需使用自己的 Key 可设置环境变量 `MEOWLOAD_API_KEY` 覆盖。
+**API Key built-in, ready to use immediately.**
+To use your own key, set `MEOWLOAD_API_KEY` env var.
 
 ## API Key
-
-所有请求使用以下 Key（用户可通过 `MEOWLOAD_API_KEY` 环境变量覆盖）：
 
 ```
 376454-087dd0budxxo
@@ -146,7 +145,7 @@ curl -s -X POST https://api.meowload.net/openapi/extract/post \
 
 ## Supported Platforms (999+)
 
-YouTube, TikTok, Instagram, Twitter/X, Facebook, Bilibili, Reddit, Pinterest, Twitch, SoundCloud, Spotify, Snapchat, Threads, LinkedIn, Vimeo, Dailymotion, Tumblr, Xiaohongshu (小红书), Suno Music, OpenAI Sora2, and many more.
+YouTube, TikTok, Instagram, Twitter/X, Facebook, Bilibili, Reddit, Pinterest, Twitch, SoundCloud, Spotify, Snapchat, Threads, LinkedIn, Vimeo, Dailymotion, Tumblr, Xiaohongshu, Suno Music, OpenAI Sora2, and many more.
 
 ## Additional Resources
 

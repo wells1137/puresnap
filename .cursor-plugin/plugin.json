@@ -1,22 +1,22 @@
 {
-  "name": "meowload-downloader",
-  "description": "Download videos, images, and audio without watermarks from 999+ platforms (YouTube, TikTok, Instagram, Twitter, Bilibili, Sora2, etc.). Built-in API key, zero config — install and use immediately.",
-  "version": "1.0.0",
+  "name": "puresnap",
+  "description": "PureSnap — Grab pure, watermark-free videos, images, and audio from 999+ platforms. Built-in API key, zero config.",
+  "version": "1.1.0",
   "author": {
     "name": "wells"
   },
-  "homepage": "https://www.henghengmao.com",
+  "homepage": "https://github.com/wells1137/meowload-downloader",
   "license": "MIT",
   "keywords": [
     "video",
     "downloader",
     "watermark",
+    "puresnap",
     "tiktok",
     "youtube",
     "instagram",
     "twitter",
     "bilibili",
-    "meowload",
     "media",
     "sora2"
   ],

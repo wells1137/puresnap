@@ -1,11 +1,11 @@
 {
-  "name": "meowload-downloader",
-  "version": "1.0.0",
-  "description": "Download videos, images, and audio without watermarks from 999+ platforms. Built-in API key, zero config.",
+  "name": "puresnap",
+  "version": "1.1.0",
+  "description": "PureSnap — Grab pure, watermark-free media from 999+ platforms. Zero config.",
   "author": "wells1137",
   "license": "MIT",
   "permissions": ["network"],
-  "entry": "skills/meowload-downloader/SKILL.md",
+  "entry": "skills/puresnap/SKILL.md",
   "tags": ["video", "downloader", "watermark", "tiktok", "youtube", "instagram", "media"],
   "models": ["claude-*", "gpt-*", "gemini-*"]
 }

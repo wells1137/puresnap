@@ -23,9 +23,10 @@ jobs:
           CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
         run: |
           npm i -g clawdhub
-          clawdhub publish ./skills/meowload-downloader \
-            --slug meowload-downloader \
-            --name "MeowLoad Downloader" \
+          clawdhub login --token "$CLAWHUB_TOKEN"
+          clawdhub publish ./skills/puresnap \
+            --slug puresnap \
+            --name "PureSnap" \
             --version "${GITHUB_REF_NAME#v}" \
             --changelog "Release ${GITHUB_REF_NAME}" \
             --tags latest
@@ -47,9 +48,8 @@ jobs:
           LOCALSKILLS_TOKEN: ${{ secrets.LOCALSKILLS_TOKEN }}
         run: |
           npm i -g @localskills/cli
-          localskills publish ./skills/meowload-downloader \
-            --team wells1137 \
-            --name meowload-downloader \
+          localskills publish ./skills/puresnap/SKILL.md \
+            --name puresnap \
             --visibility public \
             --token "$LOCALSKILLS_TOKEN"
         continue-on-error: true

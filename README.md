@@ -1,12 +1,12 @@
-# MeowLoad Downloader
+# PureSnap
 
-**Download videos, images, and audio without watermarks from 999+ platforms — right inside Cursor.**
+**Grab pure, watermark-free videos, images, and audio from 999+ platforms — right inside your AI agent.**
 
-No API key needed. No configuration. Install the plugin and start downloading.
+No API key needed. No configuration. Install and start downloading.
 
 ## What it does
 
-Paste any social media link in your Cursor chat, and the agent will extract watermark-free media for you:
+Paste any social media link in chat, and the agent extracts watermark-free media for you:
 
 - Direct download URLs for videos, images, and audio
 - Multi-resolution support (up to 8K for YouTube)
@@ -20,7 +20,7 @@ YouTube, TikTok, Instagram, Twitter/X, Facebook, Bilibili, Reddit, Pinterest, Tw
 
 ## Usage
 
-After installing the plugin, simply tell the agent what you want in chat:
+After installing, simply tell the agent what you want:
 
 ```
 Download this video: https://www.youtube.com/watch?v=dQw4w9WgXcQ
@@ -31,33 +31,51 @@ Extract all videos from this channel: https://www.youtube.com/@Nike/videos
 ```
 
 ```
-Remove the Sora watermark from this video: https://sora.chatgpt.com/p/s_xxxxx
+Remove the Sora watermark: https://sora.chatgpt.com/p/s_xxxxx
 ```
 
 ```
-Get subtitles for this YouTube video: https://www.youtube.com/watch?v=xxxxx
+Get subtitles for this video: https://www.youtube.com/watch?v=xxxxx
 ```
 
-The agent will call the MeowLoad API, parse the results, and give you direct download links or save files locally.
+The agent calls the API, parses the results, and gives you direct download links or saves files locally.
+
+## Install
+
+```bash
+# Cursor Marketplace
+# Install from cursor.com/marketplace (search "PureSnap")
+
+# skills.sh
+npx skills add wells1137/meowload-downloader
+
+# Sundial Hub
+npx sundial-hub add wells1137/puresnap
+
+# ClawHub
+clawdhub install puresnap
+
+# localskills.sh
+localskills install meowload-downloader
+
+# Playbooks
+npx playbooks add skill wells1137/meowload-downloader
+```
 
 ## Features
 
 | Feature | Description |
 |---------|-------------|
 | Single Post Download | Extract media from any single post URL |
-| Batch Extraction | Download entire playlists, channels, or profiles with pagination |
+| Batch Extraction | Download entire playlists, channels, or profiles |
 | Multi-Resolution | Choose from multiple quality options (144p to 8K) |
 | Sora2 Watermark Removal | Get original watermark-free Sora2 videos |
-| Subtitle Download | Extract YouTube subtitles in SRT, VTT, TTML, and more |
+| Subtitle Download | Extract YouTube subtitles in SRT, VTT, TTML, etc. |
 | Credits Check | Monitor remaining API usage |
 
 ## How it works
 
-This plugin wraps the [MeowLoad (哼哼猫)](https://www.henghengmao.com) developer API. An API key is built-in so you can use it immediately. If you prefer to use your own API key, set the `MEOWLOAD_API_KEY` environment variable.
-
-## Credits
-
-Powered by [MeowLoad API](https://docs.henghengmao.com/developer).
+PureSnap wraps the [MeowLoad (哼哼猫)](https://www.henghengmao.com) developer API. An API key is built-in so you can use it immediately. To use your own key, set the `MEOWLOAD_API_KEY` environment variable.
 
 ## License
 
