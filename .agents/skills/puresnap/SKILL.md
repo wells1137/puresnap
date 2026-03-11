@@ -1,28 +1,38 @@
 ---
 name: puresnap
-version: 1.2.0
+version: 1.3.0
 author: "wells"
 description: >
-  Download videos, images, and audio without watermarks from 999+ platforms
-  (TikTok, YouTube, Instagram, Twitter, Bilibili, Sora2, etc.). Zero config,
-  built-in API key. Use when the user wants to download media, extract
-  video/image/audio from a URL, remove watermarks, or grab content from
-  social media links.
+  TikTok video downloader, YouTube video downloader, Instagram Reels downloader,
+  Twitter/X video downloader, Bilibili video downloader, Reddit video downloader,
+  Facebook video downloader, Xiaohongshu image downloader, Sora2 watermark remover
+  — all-in-one no-watermark media downloader for 999+ platforms. Save videos,
+  images, audio, subtitles. Zero config, built-in API key. Use when the user
+  wants to download or save any video/image/audio from a social media URL,
+  remove watermarks, rip media, or extract content from any link.
 homepage: https://github.com/wells1137/meowload-downloader
 license: MIT
 tags:
-  - video
-  - downloader
-  - watermark
-  - media
-  - tiktok
-  - youtube
-  - instagram
+  - video-downloader
+  - tiktok-downloader
+  - youtube-downloader
+  - instagram-downloader
+  - twitter-downloader
+  - bilibili-downloader
+  - facebook-downloader
+  - reddit-downloader
+  - watermark-remover
+  - media-downloader
+  - no-watermark
+  - save-video
+  - sora2
+  - xiaohongshu
+  - download
 ---
 
-# PureSnap — Watermark-Free Media Downloader
+# PureSnap — TikTok / YouTube / Instagram / Twitter Video Downloader (No Watermark)
 
-Grab pure, watermark-free videos, images, and audio from 999+ platforms. Zero config — just paste a link.
+All-in-one video downloader: save videos, images, and audio without watermarks from TikTok, YouTube, Instagram, Twitter/X, Bilibili, Facebook, Reddit, Xiaohongshu, and 999+ platforms. Just paste a link.
 
 **API Key built-in, ready to use immediately.**
 To use your own key, set `MEOWLOAD_API_KEY` env var.

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "puresnap": {
+      "source": "wells1137/meowload-downloader",
+      "sourceType": "github",
+      "computedHash": "900f555371655a5bee85061d0a161da641ea23df9153f69d353d3aeaf555e543"
+    }
+  }
+}
