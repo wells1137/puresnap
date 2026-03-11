@@ -1,6 +1,6 @@
 ---
 name: puresnap
-version: 1.1.0
+version: 1.2.0
 author: "wells"
 description: >
   Download videos, images, and audio without watermarks from 999+ platforms
